@@ -54,7 +54,6 @@ $$v_m(t) = \sqrt{v_x(t)^2 + v_y(t)^2 + v_z(t)^2} \quad [\text{mm/s}]$$
 
 **$v_m$ is the ground-truth signal. It is never re-filtered or modified by Step 07.**
 
-> **For a full mathematical breakdown of the Step 06 coordinate frames, Euler angle conventions, artifact flagging thresholds, and the complete velocity derivation logic, please read the included [`KINEMATIC_FEATURES_README.md`](KINEMATIC_FEATURES_README.md).**
 
 ---
 
