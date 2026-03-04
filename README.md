@@ -118,13 +118,13 @@ $$\text{PPM} = \frac{N_p}{T_{active}} \times 60$$
 where $T_{active}$ is the cumulative duration (in seconds) of frames where $v_m > V$ and the frame is not an artifact. This ensures that long pauses or artifact gaps do not artificially inflate or deflate the rate.
 
 ### 4.5 Smoothness — SPARC
+Disclaimer — SPARC is included as a diagnostic/exploratory and still under development.
 
 The Spectral Arc Length (SPARC) measures movement smoothness as the arc length of the normalized velocity magnitude spectrum. A longer, more jagged arc (more negative SPARC) indicates less smooth, more fragmented movement.
 
 SPARC is computed on $v_s$ (PCHIP-bridged to provide a continuous signal for FFT), with the integration range capped at the SG effective cutoff (~6.11 Hz) — the physical bandwidth limit of the velocity signal
 
-**Disclaimer — SPARC
-**SPARC is included as a diagnostic/exploratory and still under development.
+
 
 ---
 
